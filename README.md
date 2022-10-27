@@ -6,9 +6,9 @@ ______________________________________________________________________
 </h4>
 
 ______________________________________________________________________
-The purpose of this module is to use parse existing data located in an SQL database in various tables to create new tables in order to conduct our analysis. In particular we did the following 
+The purpose of this module is to parse existing data located in an SQL database in various tables to create new tables in order to conduct our analysis. In particular we did the following 
 
-1) create a new table titled retirement_titles.csv. The purpose of this new table was to show all the employees who may be retiring or who have already retired 
+1) Create a new table titled retirement_titles.csv. The purpose of this new table was to show all the employees who may be retiring or who have already retired 
 2) Create a new table titled unique_titles.csv showing all the employees from retirement_titles.csv who have not yet retired. Then group these employees by their department to determine how many employees may be retiring from each department 
 3) Create a new table titled mentorship_eligibilty.csv which determined which employees may be eligible for the mentorship program. 
 
@@ -29,6 +29,5 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+1) There will be 240,124 positions which need to be filled as seen in retiring_titles.csv
+2) As seen in mentorship_count.csv there are no employees from the manager department who are eligible for the mentorship program 
